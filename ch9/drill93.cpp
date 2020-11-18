@@ -8,7 +8,7 @@ public:
 	void add_day(int n);
 	int year() const {return y;}
 	int month() const {return m;}
-	int day() const {return y;}
+	int day() const {return d;}
 };
 
 Date::Date(int yy, int mm, int dd)
